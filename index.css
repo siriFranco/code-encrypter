@@ -1,0 +1,145 @@
+main {
+  background: #c8dad9;  
+}
+
+.container {
+  background: #c8dad9; 
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.first-div {
+  height: 48vh; 
+  background: #c8dad9; 
+
+  font-family: "Anonymous Pro", bold;
+  font-weight: 100;
+  font-style: normal;
+}
+  
+.second-div {
+  height: 40vh; 
+  background: #fcfefe; 
+  border-radius: 10px;
+
+  font-family: "Anonymous Pro", bold;
+  font-weight: 100;
+  font-style: normal;
+
+
+} 
+
+.img-inside{
+  height: 100px;
+  padding: 2%;
+}
+
+
+h1{
+  margin: 1vh;
+  
+  font-family: "Anonymous Pro", bold;
+  font-weight: 200;
+  font-style: bold;
+}
+
+p {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 60;
+  font-style: normal;
+}
+
+.text-message {
+  text-align: center;
+  margin: 10px;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word; 
+  white-space: normal; 
+  
+}
+
+.text-message-container {
+  word-wrap: break-word;
+  overflow-wrap: break-word; 
+  white-space: normal; 
+
+  max-width: 100%;
+  overflow: auto;
+}
+
+
+/* Input details  */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #246961;
+  overflow-wrap: break-word;
+  
+}
+
+.input-container p {
+  margin-top: 10px;
+  color: #666;
+  
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 80;
+  font-style: normal;
+}
+
+.textInput {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button details  */
+.btn-custom {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ebf2f2;
+  background-color: #146e53;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.btn-custom:hover {
+  background-color: #1a5659;
+}
+
+@media (min-width: 768px) {
+  .zero-div {
+    height: 10vh; 
+  }
+
+  .first-div {
+    height: 85vh; 
+  }
+  
+  .second-div {
+    height: 85vh; 
+    
+
+  }
+
+  .input-container input {
+    width: 100%; 
+  }
+}
